@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @Ei-1612
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
+- 👋 Hi, I’m @Ireina#1717 (This is my discord name)
+- 👀 My real name is ||Mai Thế Quảng||
+- 🌱 I’m currently learning HTML & CSS
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
 <!---
-Ei-1612/Ei-1612 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+
 --->
