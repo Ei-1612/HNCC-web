@@ -7,10 +7,10 @@ html {
     font-family: 'Times New Roman', Times, serif
     
 }
-
+/* Main */
 
 #main {
-    height:600px;
+    height:1200px;
     width: 1000px;
     border: 1px solid black;
     margin: 20px;
@@ -41,6 +41,8 @@ html {
     bottom: 36px;
     background-color: #3D3C40;
     line-height: 46px;
+    box-shadow: 5px 5px 5px #666;
+    margin-right: 12px;
 }
 input {
     background-color: #323031;
@@ -67,18 +69,125 @@ button:active {
     color: #000;
 }
 
-.contain {
+.demo {
+    background-color: aqua;
+    height: 120px;
+    margin: 0 12px;
+    width: 976  px;
+}
+.demo h3 {
+    color: red;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    position: relative;
+    top:20px;
+    left: 140px;
+}
+.demo p {
+    color: blue;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 12px;
+}
 
+#nav {
+    background-color: #000;
+    margin: 0 12px;
+}
+
+
+.navbar {
+    list-style-type: none;
+    padding-left: 12px;
+}
+
+.navbar > li {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding-right:0px;
+    
+}
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0 12px;
+}
+.navbar a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Subnav menu */
+.navbar> li:hover .subnav {
+    display: block;
+}
+.navbar .subnav {
+    position: absolute;
+    display: none;
+}
+
+.subnav {
+    list-style-type: none;
+    padding: 0;
+    box-shadow: 0 0 4px;
+
+}
+.subnav li {
+    background-color: red;
+    min-width: 200px;
+}
+
+
+/* Content */
+
+.contain {
+    display: flex;
 }
 
 .slider {
-
+    padding-left: 12px;
+    margin-left: 12px;
+    background-color: khaki;
+    flex-basis: 30%;
+}
+.slider>img {
+    width: 280px;
+    height: 200px;
 }
 
 .content {
-
+    flex-basis: 70%;
+    padding-left: 12px;
+    
 }
-
+.content h3 {
+    text-transform: uppercase;
+    font-weight:bold;
+    
+}
+.content p {
+    padding-right:24px ;
+}
 #footer {
-
+    background-color: #1a4797;
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
 }
+#footer h3 {
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#footer h4 {
+    padding-bottom: 10px;
+}
+
